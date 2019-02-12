@@ -2,7 +2,7 @@ import tweepy
 
 consumer_key = ''
 consumer_secret = ''
-access_token = '-9XP1LJSljym5ueIuVIkwbBcGwmJuVg'
+access_token = ''
 access_token_secret = ''
 
 def OAuth():
@@ -16,4 +16,4 @@ def OAuth():
 oauth = OAuth()
 api = tweepy.API(oauth)
 
-api.update_status('A tweet')
+api.update_status('Hello world')
